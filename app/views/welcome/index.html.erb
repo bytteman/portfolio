@@ -1,0 +1,84 @@
+<div>
+  <div tabindex="-1" style="pointer-events: none;">
+    <ol tabindex="-1" class="fixed top-0 z-[100] flex max-h-screen w-full flex-col-reverse p-4 sm:bottom-0 sm:right-0 sm:top-auto sm:flex-col md:max-w-[420px]"></ol>
+  </div>
+  <div class="min-h-screen bg-background"><nav class="fixed top-0 w-full bg-background/80 backdrop-blur-sm border-b border-border-subtle z-50">
+      <div class="max-w-4xl mx-auto px-6 py-4">
+        <div class="flex justify-between items-center">
+          <h1 class="text-xl font-semibold text-foreground">John Doe</h1>
+          <div class="hidden md:flex space-x-8"><a href="#about" class="text-muted-foreground hover:text-foreground transition-colors">About</a><a href="#work" class="text-muted-foreground hover:text-foreground transition-colors">Work</a><a href="#contact" class="text-muted-foreground hover:text-foreground transition-colors">Contact</a></div>
+        </div>
+      </div>
+    </nav>
+    <section class="pt-32 pb-20 px-6">
+      <div class="max-w-4xl mx-auto">
+        <div class="max-w-2xl">
+          <h1 class="text-5xl md:text-6xl font-light text-foreground mb-6 leading-tight">Designer &amp; Developer</h1>
+          <p class="text-xl text-text-subtle mb-8 leading-relaxed">I create digital experiences that are both beautiful and functional. Currently focused on building products that solve real problems.</p>
+          <div class="flex flex-col sm:flex-row gap-4"><a href="#work" class="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground rounded-md hover:opacity-90 transition-opacity">View my work</a><a href="#contact" class="inline-flex items-center justify-center px-6 py-3 border border-border-subtle text-foreground rounded-md hover:bg-hover-bg transition-colors">Get in touch</a></div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="py-20 px-6 bg-muted">
+      <div class="max-w-4xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-12 items-start">
+          <div >
+            <h2 class="text-3xl font-light text-foreground mb-6">About</h2>
+            <p class="text-muted-foreground mb-4 leading-relaxed">I'm a passionate designer and developer with over 5 years of experience creating digital products. I believe in the power of good design to solve complex problems and improve people's lives.</p>
+            <p class="text-muted-foreground leading-relaxed">When I'm not coding or designing, you can find me exploring new technologies, reading about design philosophy, or enjoying a good cup of coffee.</p>
+          </div>
+          <div >
+            <h3 class="text-lg font-medium text-foreground mb-4">Skills</h3>
+            <div class="grid grid-cols-2 gap-3">
+              <div class="bg-white px-3 py-2 rounded-md text-sm text-foreground">React</div>
+              <div class="bg-white px-3 py-2 rounded-md text-sm text-foreground">TypeScript</div>
+              <div class="bg-white px-3 py-2 rounded-md text-sm text-foreground">Node.js</div>
+              <div class="bg-white px-3 py-2 rounded-md text-sm text-foreground">PostgreSQL</div>
+              <div class="bg-white px-3 py-2 rounded-md text-sm text-foreground">Figma</div>
+              <div class="bg-white px-3 py-2 rounded-md text-sm text-foreground">Tailwind CSS</div>
+              <div class="bg-white px-3 py-2 rounded-md text-sm text-foreground">Next.js</div>
+              <div class="bg-white px-3 py-2 rounded-md text-sm text-foreground">GraphQL</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="work" class="py-20 px-6">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-light text-foreground mb-12">Selected Work</h2>
+        <div class="space-y-16">
+          <div class="border-b border-border-subtle pb-12 last:border-b-0 last:pb-0">
+            <h3 class="text-xl font-medium text-foreground mb-3">E-commerce Platform</h3>
+            <p class="text-muted-foreground mb-4 leading-relaxed max-w-2xl">A modern e-commerce platform built with React and Node.js, featuring real-time inventory management and seamless checkout experience.</p>
+            <div class="flex flex-wrap gap-2"><span class="text-xs text-text-subtle bg-accent px-2 py-1 rounded">React</span><span class="text-xs text-text-subtle bg-accent px-2 py-1 rounded">Node.js</span><span class="text-xs text-text-subtle bg-accent px-2 py-1 rounded">PostgreSQL</span><span class="text-xs text-text-subtle bg-accent px-2 py-1 rounded">Stripe</span></div>
+          </div>
+          <div class="border-b border-border-subtle pb-12 last:border-b-0 last:pb-0">
+            <h3 class="text-xl font-medium text-foreground mb-3">Design System</h3>
+            <p class="text-muted-foreground mb-4 leading-relaxed max-w-2xl">Comprehensive design system and component library used across multiple products, improving development speed by 40%.</p>
+            <div class="flex flex-wrap gap-2"><span class="text-xs text-text-subtle bg-accent px-2 py-1 rounded">Figma</span><span class="text-xs text-text-subtle bg-accent px-2 py-1 rounded">React</span><span class="text-xs text-text-subtle bg-accent px-2 py-1 rounded">Storybook</span><span class="text-xs text-text-subtle bg-accent px-2 py-1 rounded">TypeScript</span></div>
+          </div>
+          <div class="border-b border-border-subtle pb-12 last:border-b-0 last:pb-0">
+            <h3 class="text-xl font-medium text-foreground mb-3">Mobile Banking App</h3>
+            <p class="text-muted-foreground mb-4 leading-relaxed max-w-2xl">Intuitive mobile banking interface focusing on accessibility and security, serving over 100k users.</p>
+            <div class="flex flex-wrap gap-2"><span class="text-xs text-text-subtle bg-accent px-2 py-1 rounded">React Native</span><span class="text-xs text-text-subtle bg-accent px-2 py-1 rounded">TypeScript</span><span class="text-xs text-text-subtle bg-accent px-2 py-1 rounded">Firebase</span><span class="text-xs text-text-subtle bg-accent px-2 py-1 rounded">Plaid</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="py-20 px-6 bg-muted">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-light text-foreground mb-6">Let's work together</h2>
+        <p class="text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd like to discuss a project or just say hello.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center"><a href="mailto:hello@johndoe.com" class="inline-flex items-center justify-center px-6 py-3 bg-primary text-primary-foreground rounded-md hover:opacity-90 transition-opacity">Send an email</a><a href="https://linkedin.com/in/johndoe" class="inline-flex items-center justify-center px-6 py-3 border border-border-subtle text-foreground rounded-md hover:bg-hover-bg transition-colors">LinkedIn</a></div>
+      </div>
+    </section>
+    <footer class="py-8 px-6 border-t border-border-subtle">
+      <div class="max-w-4xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <p class="text-sm text-text-subtle">© 2024 John Doe. All rights reserved.</p>
+          <div class="flex space-x-6 mt-4 md:mt-0"><a href="#" class="text-sm text-text-subtle hover:text-foreground transition-colors">GitHub</a><a href="#" class="text-sm text-text-subtle hover:text-foreground transition-colors">Twitter</a><a href="#" class="text-sm text-text-subtle hover:text-foreground transition-colors">Dribbble</a></div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</div>
